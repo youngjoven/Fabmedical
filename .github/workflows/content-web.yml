@@ -11,9 +11,9 @@ on:
 # 작업 정의 전체에서 사용할 수 있도록 환경 변수 정의
 env:
   imageRepository: 'content-web'
-  resourceGroupName: 'fabmedical-[SHORT_SUFFIX]'
-  containerRegistryName: 'fabmedical[SHORT_SUFFIX]'
-  containerRegistry: 'fabmedical[SHORT_SUFFIX].azurecr.io'
+  resourceGroupName: 'fabmedical-yjgwon'
+  containerRegistryName: 'fabmedicalYJG'
+  containerRegistry: 'fabmedicalyjg.azurecr.io'
   dockerfilePath: './content-web'
   tag: '${{ github.run_id }}'
 # 코드가 마스터 브랜치에 푸시될 때 발생하는 작업을 정의
